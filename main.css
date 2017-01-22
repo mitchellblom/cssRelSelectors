@@ -45,3 +45,7 @@ header li {
 	font-weight: bold;
 	color: gold;
 }
+
+input[type=text] {
+	height: 25px;
+}
