@@ -19,3 +19,15 @@ header li {
 .active {
 	color: yellow;
 }
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.red h4:first-of-type {
+  background-color: red;
+}
