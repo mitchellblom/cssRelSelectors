@@ -1,0 +1,21 @@
+header {
+	border: 1px black;
+}
+
+header li {
+	list-style-type: none;
+	padding: 0 5% 0 5%;
+	display: inline;
+}
+
+.disabled {
+	color: gray;
+}
+
+.disabled a {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
