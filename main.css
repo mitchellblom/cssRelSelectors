@@ -20,14 +20,18 @@ header li {
 	color: yellow;
 }
 
-.red {
-	color: red;
+.parent div div:nth-child(1){
+    color: red;
 }
 
-.blue {
-	color: blue;
+.parent div div:nth-child(n + 2){
+    color: blue;
 }
 
-.red h4:first-of-type {
-  background-color: red;
-}
+
+/*
+.parent div div ~ h4:nth-of-type(2) {
+    background-color: blue;
+
+.parent div div ~ h4:nth-of-type(2) {
+background-color: red;*/
